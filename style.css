@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+
+/*-------------------UNIVERSAL------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+ }
+
+/*-------------------HEADER-----------------------*/
+
+header{
+  background-image: url(img/kultúra\ Slovenska-6.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: -1;
+}
+header img{
+  z-index: -2;
+  position: relative;
+  width: 100%;
+}
+
+.box{
+  max-height: 80vh;
+  width: 100%;
+}
+
+main{
+  z-index: 5;
+  background-color: #253C69;
+  padding: 40px;
+}
+
+ /* -----------------NAVIGATION---------------------*/
+
+  /*nav{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    
+    width: 100vw;
+    height: 10vh;
+
+    z-index: 1;
+
+    display: flex;
+    align-items: center; 
+	justify-content: center;
+ }
+
+ nav a{
+    position: relative;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-weight: 
+    bold;   
+    font-size: 1em;
+
+    padding: 0.7em;
+    margin: 1em;
+    transition: 0.3s;
+ }
+ nav a:hover{
+    color: #253c69;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ nav a:after{
+    content: "";
+    position: absolute;
+    background-color: #253c69;
+    height: 0.2em;
+    width: 100%;
+    left: 0;
+    bottom: -0.2em;
+    transition: 0.3s;
+ }
+ .active{
+    color: #253c69;
+}
+ /* -------------------HOME----------------------*/
+/*main{
+    position: relative;
+    min-height: 80vh;
+
+
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#left{
+    position: absolute;
+    top: 1vh;
+    left: 15vw;
+    font-size: 1.05em;
+    color: black;
+}
+#right{
+    position: absolute;
+    top: 4.5vh;
+    right: 15vw;
+
+    width: 20vw;
+    height: 70vh;
+    background-color: #253c69;
+
+    display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#right ul{
+    padding: 2em;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 1.5em;
+    color: #fff;
+    flex-direction: column;
+
+}
+ #blogBox{
+    border: 2px solid rgba(0, 0, 0, 0.1);
+
+    width: 40vw;
+    height: 40vh;
+    margin: 2em;
+    padding: 2em;
+
+    */
+
+
+ /*}
+ .card {
+    perspective: 150rem;
+    position: relative;
+    height: 40vh;
+    width: 50vw;
+    margin: 2rem;
+    box-shadow: none;
+    background: none;
+    text-align: center;
+
+    
+  }
+  .card h1{
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-weight: 400;   
+    font-size: 4em;
+    font-family: 'Anton', sans-serif;
+    padding: 0.1em;
+    letter-spacing: 0.1em;
+}
+  
+  .card-side {
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.6s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 2rem;
+    color: #000;
+    
+  }
+  
+  .card-side.back {
+    transform: rotateY(-180deg);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-side.front {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .card:hover .card-side.front {
+    transform: rotateY(180deg);
+  }
+  
+  .card:hover .card-side.back {
+    transform: rotateY(0deg);
+  }
+ 
+.card div{
+    display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+*/
