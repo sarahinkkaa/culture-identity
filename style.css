@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+
+/*-------------------UNIVERSAL------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+ }
+
+/*-------------------HEADER-----------------------*/
+
+header{
+  background-image: url(title.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: -1;
+  height: 80vh;
+  width: 100vw;
+}
+header img{
+  z-index: -2;
+  position: relative;
+  width: 100%;
+}
+
+main{
+  
+}
+div.box{
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.color{
+  background-color: #253C69;
+}
+
+/*---------------MAIN BRANCH---------------*/
+
+main div{
+  padding: 2em;
+  position: relative;
+}
+main div span{
+  position: absolute;
+  top: 1vh;
+  right: 6vw;
+}
+main div span a img{
+  width: 30px;
+}
+main div h1{
+  text-align: left;
+  font-size: 4em;
+}
+main div h1, main div p{
+  margin: 0.4em;
+  text-align: left;
+  width: 84%;
+  padding: 0.2em;
+  /*background-color: #253C69;*/
+}
+main div p{
+  min-height: 10vh;
+}
+main div img{
+  width: 100vw;
+  margin: 3em 0;
+}
+
+.align{
+  margin: 1em;
+  text-align: left;
+  width: 84%;
+  padding: 0.2em;
+}
+
