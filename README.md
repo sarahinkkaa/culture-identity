@@ -1,2 +1,2 @@
-# culture-identity
-A coded website about Slovak's culture and identity.
+# failure
+A website that I dont know what is about
